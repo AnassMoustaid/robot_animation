@@ -1,0 +1,140 @@
+body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+h1{
+    text-align: center;
+}
+
+.robots{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.android{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50% 50% 0% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.eyes{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 300px;
+    align-items: center;
+} 
+
+.left_eye{ 
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.right_eye{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.head:hover{
+    width: 500px;
+    transition: width ease-in-out 1s;
+}
+  
+
+
+.left_arm{
+    display: inline-block;
+    margin-bottom: 80px;
+    background-color: aqua;
+    width: 50px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.right_arm:hover{
+    transform: rotate(-40deg);
+}
+
+.left_arm:hover{
+    transform: rotate(40deg);
+}
+
+.right_leg:hover{
+    transform: rotate(-20deg);
+}
+
+.left_leg:hover{
+    transform: rotate(20deg);
+}
+
+.right_arm{
+    display: inline-block;
+    margin-bottom: 80px;
+    background-color: aqua; 
+    width: 50px;
+    height: 130px;
+    border-radius: 50%;
+    padding: 0;
+} 
+
+.torso{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: -20px;
+    width: 300px;
+    height: 250px;
+    background-color: aqua;
+    border-radius: 0% 0% 40% 40%;
+}
+
+
+
+
+.lower-body{
+    margin-top: 0;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right_leg{
+    margin-left: 50px;
+    display: inline-block;
+    background-color: aqua;
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.left_leg{
+    margin-left: 120px;
+    display: inline-block;
+    background-color: aqua;
+    width: 50px;
+    height: 100px;
+    border-radius: 50%;
+}
